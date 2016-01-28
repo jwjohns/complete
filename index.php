@@ -77,6 +77,6 @@
         
         <div id="map" style="width: 100%; height: 100%;"><img id="gif" style="position:relative;top:10%;left:25%;visibility:hidden;z-index:-20;"src="load.gif" alt="loader gif image" /></div>
 
-        <script src="//maps.googleapis.com/maps/api/js??v=3.exp&sensor=false"></script>
+        <script src="//maps.googleapis.com/maps/api/js??v=3.exp"></script>
     </body>
 <html>
