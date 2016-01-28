@@ -34,7 +34,7 @@
                                 lat: row.lat,
                                 lng: row.lon
                             },
-                            size: {} // required to be here, data is optional
+                            size: {} // required to be here, data is optional as the marker plugin also can use images
                         });
                     });
                     map = new MapMarker(markerConfig);
