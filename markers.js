@@ -21,7 +21,7 @@ var MapMarker = (function () {
     * options.mapType - unused at the moment
     */
     var MapMarker = function (options) {
-        this.version = { version: "1.1" },
+        this.version = { version: "1.1.0" },
         this.map;
 
         var centerPoint = options.centerPoint, 
