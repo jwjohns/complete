@@ -19,8 +19,6 @@ $cityIndex = array_search('City', $columns);
 $stateIndex = array_search('State', $columns);
 $catIndex = array_search('Category', $columns);
 
-$categories = array("test"=>'value');
-
 foreach ($csvAsArray as $key => $value) {
     // loop through each row in the csv, parse the values
     $address = $value[$streetIndex] . ' ' . $value[$cityIndex] . ', ' . $value[$stateIndex];
