@@ -3,8 +3,8 @@
         <style>
             #floating-panel {
               position: absolute;
-              top: 10px;
-              left: 25%;
+              top: 20px;
+              left: 5%;
               z-index: 5;
               background-color: #fff;
               padding: 5px;
