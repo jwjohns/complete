@@ -8,6 +8,7 @@
     var map;
     $(document).ready(function () {
         $('#contactForm').on('submit', function (e) {
+            $('#gif').css('visibility', 'visible');
             e.preventDefault();
             var data = new FormData(this);
             //Carry out an Ajax request.

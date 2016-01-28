@@ -1,10 +1,10 @@
-<html> 
+<html style="background-color:black;"> 
     <head>
         <style>
             #floating-panel {
               position: absolute;
-              top: 20px;
-              left: 5%;
+              top: 15px;
+              right: 1.4%;
               z-index: 5;
               background-color: #fff;
               padding: 5px;
@@ -21,12 +21,11 @@
     </head>
     <body>
 
-        <div id="floating-panel"> 
+        <div id="floating-panel">
             <form method="POST" id="contactForm" enctype="multipart/form-data">
+            <p>upload csv</p>
             <input type="file" id="csv" name="csv" />
-            
-            <hr />
-            <p>Please input the column names.</p>
+            <p>select col names</p>
             <p>Column 1: 
                 <select name="col1">
                     <option value="Street">Street</option>
@@ -75,8 +74,9 @@
 
             <input type="submit" id="submitBtn" name="submit" value="Generate Map" /></form>
         </div>
-        <hr />
-        <div id="map" style="width: 100%; height: 500px;"></div>
+        
+        <div id="map" style="width: 100%; height: 100%;"><img id="gif" style="position:relative;top:10%;left:25%;visibility:hidden;z-index:-20;"src="load.gif" alt="loader gif image" /></div>
+
         <script src="//maps.googleapis.com/maps/api/js??v=3.exp&sensor=false"></script>
     </body>
 <html>
