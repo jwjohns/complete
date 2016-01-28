@@ -21,7 +21,7 @@
     </head>
     <body>
 
-        <div id-"floating-panel"> 
+        <div id="floating-panel"> 
             <form method="POST" id="contactForm" enctype="multipart/form-data">
             <input type="file" id="csv" name="csv" />
             
